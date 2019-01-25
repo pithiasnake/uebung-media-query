@@ -8,3 +8,58 @@ html, body{
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 100%;
 }
+
+.wrapper {
+	background: yellow;
+	height: 100%;
+	width: 80%;
+	margin:auto;
+}
+
+.card {
+	border: 1px black dotted;
+	position: relative;
+
+}
+
+.card h1{
+	position: absolute;
+	background: #fff;
+	padding: 5px;
+	top: 50%;
+	left: 50%;
+	border: 3px solid #3f888f;
+	outline: 2px solid pink;
+	transform: translate(-50%,-50%);
+
+
+
+}
+
+
+
+
+.card img {
+	width: 100%;
+	display: block;
+
+	
+
+
+}
+
+@media (min-width:1024px){
+	body{
+		background: red;
+
+	}
+
+
+.row {
+	display: flex;
+}
+
+.card{
+	margin: 5px;
+}
+}
